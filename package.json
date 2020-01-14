@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/adrianndwiga/job-applications/issues"
   },
-  "homepage": "https://github.com/adrianndwiga/job-applications#readme"
+  "homepage": "https://github.com/adrianndwiga/job-applications#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^13.1.6",
+    "typescript": "^3.7.4"
+  }
 }
