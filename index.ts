@@ -16,9 +16,5 @@ interface JobApplication {
 }
 
 export class JobApplications  {
-    private readonly applications: JobApplication[]
-
-    add(): void {
-        
-    }
+    //
 }
