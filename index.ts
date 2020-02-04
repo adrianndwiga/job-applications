@@ -16,5 +16,13 @@ interface JobApplication {
 }
 
 export class JobApplications  {
-    //
+    constructor(private readonly jobApplications: JobApplication[] ) {}
+
+    list(): JobApplication[] {
+        return this.jobApplications
+    }
+
+    create(jobApplication: JobApplication): void {
+        this.jobApplications.push(jobApplication)
+    }
 }
