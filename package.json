@@ -19,7 +19,9 @@
     "url": "https://github.com/adrianndwiga/job-applications/issues"
   },
   "homepage": "https://github.com/adrianndwiga/job-applications#readme",
-  "dependencies": {},
+  "dependencies": {
+    "job-detail": "../job-detail/"
+  },
   "devDependencies": {
     "@types/node": "^13.1.6",
     "tslint": "^6.0.0",
