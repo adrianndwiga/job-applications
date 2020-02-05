@@ -6,9 +6,10 @@ interface JobDetail {
     contact: string
     salary: string
     description: string
+    fullDescription: string
 }
 
-interface JobApplication {
+export interface JobApplication {
     job: JobDetail
     coverLetter: string
     cv: string
