@@ -7,6 +7,7 @@
     "build": "tsc",
     "lint": "tslint -c tslint.json './**/*.ts'",
     "start": "npm run lint && npm run build && node main.js",
+    "main": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

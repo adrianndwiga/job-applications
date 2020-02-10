@@ -36,4 +36,5 @@ if (process.argv[2].startsWith('create')) {
 
     writeFileSync(`${dir}/job-summary.html`, data.job.description, 'utf8')
     writeFileSync(`${dir}/job-detail.html`, data.job.fullDescription, 'utf8')
+    writeFileSync(`${dir}/cover-letter.md`, '', 'utf8')
 }
