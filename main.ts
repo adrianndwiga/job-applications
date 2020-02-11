@@ -26,6 +26,7 @@ if (process.argv[2].startsWith('create')) {
                     contact: job.contact,
                     salary: job.salary,
                     description: job.description,
+                    location: job.location,
                     fullDescription: result[0].content,
 
                 }} as JobApplication)

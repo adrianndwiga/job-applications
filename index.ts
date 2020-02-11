@@ -5,6 +5,7 @@ interface JobDetail {
     company: string
     contact: string
     salary: string
+    location: string
     description: string
     fullDescription: string
 }
